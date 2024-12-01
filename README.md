@@ -35,17 +35,6 @@ You can install the development version of ryx from [Github]
 # install.packages("remotes")
 remotes::install_github("https://github.com/ralr17/ryx2.git")
 ```
+## How to use
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(ryx)
-## basic example code
-library(MASS)
-object <- ryx(Boston, y = "medv")
-summary(object)
-print(object)
-plot(object)
-```
+To learn more about how to use this package and the different functions available to anaylze the correlation between variables visit the Getting Started tab and the Reference tab.

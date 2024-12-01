@@ -1,4 +1,5 @@
 Package: ryx
+URL: https://github.com/ralr17/ryx2.git 
 Title: Functions for correlation analysis
 Version: 0.0.0.9000
 Authors@R: 

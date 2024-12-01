@@ -40,6 +40,9 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
 <li>
+  <a href="articles/ryx.html">Get started</a>
+</li>
+<li>
   <a href="reference/index.html">Reference</a>
 </li>
       </ul>
@@ -60,21 +63,21 @@
 </h1></div>
 <!-- badges: start -->
 <!-- badges: end -->
-<p>The goal of correlationryx is to provide tools for exploring and analyzing the correlations between a selected variable and other numeric variables in a dataset. Users can choose specific numeric variables to include in the comparison. If none are specified, the selected variable will be compared to all other numeric variables in the dataset, excluding itself. The plot function generates visualizations to clearly represent these correlations, highlighting their direction and magnitude. The summary function returns a comprehensive summary, including the variables being compared, the median absolute correlation, the range of correlation values, and the count of variables that are statistically significant at below the 0.05 level. Additionally, the print function outputs the correlation values between the selected variable and the other variables in the dataset for easy review.</p>
+<p>The goal of ryx is to provide tools for exploring and analyzing the correlations between a selected variable and other numeric variables in a dataset. Users can choose specific numeric variables to include in the comparison. If none are specified, the selected variable will be compared to all other numeric variables in the dataset, excluding itself. The plot function generates visualizations to clearly represent these correlations, highlighting their direction and magnitude. The summary function returns a comprehensive summary, including the variables being compared, the median absolute correlation, the range of correlation values, and the count of variables that are statistically significant at below the 0.05 level. Additionally, the print function outputs the correlation values between the selected variable and the other variables in the dataset for easy review.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
 <p>You can install the development version of correlationryx like so:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("remotes")</span></span>
-<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"https://github.com/ralr17/Assignment4.git"</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"https://github.com/ralr17/ryx2.git"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
 <p>This is a basic example which shows you how to solve a common problem:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">correlationryx</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">ryx</span><span class="op">)</span></span>
 <span><span class="co">## basic example code</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="http://www.stats.ox.ac.uk/pub/MASS4/" class="external-link">MASS</a></span><span class="op">)</span></span>
 <span><span class="va">object</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/ryx.html">ryx</a></span><span class="op">(</span><span class="va">Boston</span>, y <span class="op">=</span> <span class="st">"medv"</span><span class="op">)</span></span>

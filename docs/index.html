@@ -46,38 +46,21 @@
   </div>
 </nav><div class="container template-home">
 <div class="row">
-  <main id="main" class="col-md-9"><p>```{r, include = FALSE} knitr::opts_chunk$set( collapse = TRUE, comment = “#&gt;”, fig.path = “man/figures/README-”, out.width = “100%” )</p>
-<pre><code>
-# ryx
-
-&lt;img src="scatterplot1.png" alt="General Scatter Plot with correlation" width="200"/&gt;
-
-&lt;!-- badges: start --&gt;
-
-&lt;!-- badges: end --&gt;
-
-The goal of ryx is to provide tools for exploring and analyzing the
-correlations between a selected variable and other numeric variables in
-a dataset. Users can choose specific numeric variables to include in the
-comparison. If none are specified, the selected variable will be
-compared to all other numeric variables in the dataset, excluding
-itself. The plot function generates visualizations to clearly represent
-these correlations, highlighting their direction and magnitude. The
-summary function returns a comprehensive summary, including the
-variables being compared, the median absolute correlation, the range of
-correlation values, and the count of variables that are statistically
-significant at below the 0.05 level. Additionally, the print function
-outputs the correlation values between the selected variable and the
-other variables in the dataset for easy review.
-
-## Installation
-
-You can install the development version of ryx from [Github]
-(&lt;https://github.com/ralr17/ryx2.git&gt;) with:
-
-``` r
-# install.packages("remotes")
-remotes::install_github("https://github.com/ralr17/ryx2.git")</code></pre>
+  <main id="main" class="col-md-9"><div class="section level1">
+<div class="page-header"><h1 id="ryx">ryx<a class="anchor" aria-label="anchor" href="#ryx"></a>
+</h1></div>
+<p><img src="scatterplot1.png" alt="General Scatter Plot with correlation" width="200"></p>
+<!-- badges: start -->
+<!-- badges: end -->
+<p>The goal of ryx is to provide tools for exploring and analyzing the correlations between a selected variable and other numeric variables in a dataset. Users can choose specific numeric variables to include in the comparison. If none are specified, the selected variable will be compared to all other numeric variables in the dataset, excluding itself. The plot function generates visualizations to clearly represent these correlations, highlighting their direction and magnitude. The summary function returns a comprehensive summary, including the variables being compared, the median absolute correlation, the range of correlation values, and the count of variables that are statistically significant at below the 0.05 level. Additionally, the print function outputs the correlation values between the selected variable and the other variables in the dataset for easy review.</p>
+<div class="section level2">
+<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+</h2>
+<p>You can install the development version of ryx from [Github] (<a href="https://github.com/ralr17/ryx2.git" class="uri">https://github.com/ralr17/ryx2.git</a>) with:</p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># install.packages("remotes")</span></span>
+<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"https://github.com/ralr17/ryx2.git"</span><span class="op">)</span></span></code></pre></div>
+</div>
 <div class="section level2">
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
@@ -91,7 +74,7 @@ remotes::install_github("https://github.com/ralr17/ryx2.git")</code></pre>
 <span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">object</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">object</span><span class="op">)</span></span></code></pre></div>
 </div>
-
+</div>
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">

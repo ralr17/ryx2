@@ -17,9 +17,8 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(ryx)
 ```
-## Let's go over how to use the functions in ryx
 
-# Let's first show how to use ryx()
+## Using ryx() without specifying comparison Variables (x) for the selected variable (y) 
 ```{r}
 library(MASS)
 object <- ryx(Boston, y="medv")
@@ -41,3 +40,25 @@ print(object)
 plot(object)
 ```
 
+## Using ryx() specifying comparison variables (x) for the selected variable (y)
+
+```{r}
+data(mtcars)
+object2 <- ryx(mtcars, y = "mpg", x = c("qsec","gear","carb", "cyl"))
+```
+
+# Now let's get a summary of the correlations between mpg and all the specified variables
+```{r}
+summary(object2)
+```
+
+# Now let's print out all of the correlations between mpg and all the specified variables
+
+```{r}
+print(object2)
+```
+
+# Now let's plot all of the correlations between mpg and all the specified variables
+```{r}
+plot(object2)
+```

@@ -22,7 +22,7 @@ You can install the development version of correlationryx like so:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("https://github.com/ralr17/Assignment4.git")
+remotes::install_github("https://github.com/ralr17/ryx2.git")
 ```
 
 ## Example

@@ -2,5 +2,8 @@ title: ryx
 url: https://github.com/ralr17/ryx2.git
 template:
   params:
-  bootstrap: 5
-  bootswatch: cerulean
+    bootstrap: 5
+    bootswatch: cerulean
+    source:
+      repo: https://github.com/ralr17/ryx2
+      branch: main

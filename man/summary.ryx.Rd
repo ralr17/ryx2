@@ -12,7 +12,7 @@ It contains the correlation, p-values, and significance levels between the selec
 in the selected dataset.}
 }
 \value{
-A printed summary including:
+The function returns a printed summary including:
 \itemize{
 \item The variables being compared,
 \item The median absolute correlation between the selected variable and the other variables,

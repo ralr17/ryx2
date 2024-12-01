@@ -8,7 +8,7 @@
 #' @param y A character string specifying the variable (must be numeric) for correlation analysis.
 #' @param x An optional character string specifying the variable that the user wants to compare variable y to.
 #' If not provided, all numeric variables in the dataset except `y` will be used.
-#' @returns An object of class `ryx`, which includes `y`,`x` ,
+#' @returns The function returns an object of class `ryx`, which includes `y`,`x` ,
 #' `df` which is a data frame with the variables of interest, `variable` is the column name of the variable,
 #' `r` is the correlation coefficient, `p` is the p-value for the correlation test
 #' and `sigif` is the significance level indicators.

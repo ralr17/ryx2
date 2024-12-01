@@ -15,7 +15,7 @@ ryx(data, y, x)
 If not provided, all numeric variables in the dataset except \code{y} will be used.}
 }
 \value{
-An object of class \code{ryx}, which includes \code{y},\code{x} ,
+The function returns an object of class \code{ryx}, which includes \code{y},\code{x} ,
 \code{df} which is a data frame with the variables of interest, \code{variable} is the column name of the variable,
 \code{r} is the correlation coefficient, \code{p} is the p-value for the correlation test
 and \code{sigif} is the significance level indicators.

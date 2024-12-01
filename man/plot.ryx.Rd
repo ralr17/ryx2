@@ -12,7 +12,7 @@ It contains the correlation, p-values, and level of significance between the sel
 in the selected dataset.}
 }
 \value{
-A plot object specific to the method. The function returns a visualization of the correlations between
+The function returns a visualization of the correlations between
 the selected variable and all the other variables in the selected dataset.
 }
 \description{

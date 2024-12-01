@@ -1,5 +1,7 @@
-
 # ryx
+
+<img src="scatterplot1.png" alt="General Scatter Plot with correlation" width="200"/>
+
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -18,7 +20,7 @@ The goal of ryx is to provide tools for exploring and analyzing the correlations
 
 ## Installation
 
-You can install the development version of correlationryx like so:
+You can install the development version of ryx from [Github] (https://github.com/ralr17/ryx2.git) with:
 
 ``` r
 # install.packages("remotes")

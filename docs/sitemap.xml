@@ -1,13 +1,13 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url><loc>/404.html</loc></url>
-<url><loc>/articles/index.html</loc></url>
-<url><loc>/articles/ryx.html</loc></url>
-<url><loc>/authors.html</loc></url>
-<url><loc>/index.html</loc></url>
-<url><loc>/reference/index.html</loc></url>
-<url><loc>/reference/plot.ryx.html</loc></url>
-<url><loc>/reference/print.ryx.html</loc></url>
-<url><loc>/reference/ryx.html</loc></url>
-<url><loc>/reference/summary.ryx.html</loc></url>
+<url><loc>https://github.com/ralr17/ryx2.git/404.html</loc></url>
+<url><loc>https://github.com/ralr17/ryx2.git/articles/index.html</loc></url>
+<url><loc>https://github.com/ralr17/ryx2.git/articles/ryx.html</loc></url>
+<url><loc>https://github.com/ralr17/ryx2.git/authors.html</loc></url>
+<url><loc>https://github.com/ralr17/ryx2.git/index.html</loc></url>
+<url><loc>https://github.com/ralr17/ryx2.git/reference/index.html</loc></url>
+<url><loc>https://github.com/ralr17/ryx2.git/reference/plot.ryx.html</loc></url>
+<url><loc>https://github.com/ralr17/ryx2.git/reference/print.ryx.html</loc></url>
+<url><loc>https://github.com/ralr17/ryx2.git/reference/ryx.html</loc></url>
+<url><loc>https://github.com/ralr17/ryx2.git/reference/summary.ryx.html</loc></url>
 </urlset>
 

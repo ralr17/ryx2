@@ -1,0 +1,43 @@
+---
+title: "Introduction to ryx"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to ryx}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ryx)
+```
+## Let's go over how to use the functions in ryx
+
+# Let's first show how to use ryx()
+```{r}
+library(MASS)
+object <- ryx(Boston, y="medv")
+```
+
+# Now let's get a summary of the correlations between medv and all the other variables
+```{r}
+summary(object)
+```
+
+# Now let's print out all of the correlations between medv and all the other variables
+
+```{r}
+print(object)
+```
+
+# Now let's plot all of the correlations between medv and all the other variables
+```{r}
+plot(object)
+```
+

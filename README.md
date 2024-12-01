@@ -30,7 +30,7 @@ remotes::install_github("https://github.com/ralr17/ryx2.git")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(correlationryx)
+library(ryx)
 ## basic example code
 library(MASS)
 object <- ryx(Boston, y = "medv")

@@ -1,0 +1,26 @@
+Package: ryx
+Title: Functions for correlation analysis
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ral", family = "Reyes", role = c("aut", "cre"), email = "rreyes@wesleyan.edu")
+Description: This package provides tools for exploring and analyzing the correlations between
+    a selected variable and other numeric variables in a dataset. Users can choose specific numeric
+    variables to include in the comparison. If none are specified, the selected variable will be
+    compared to all other numeric variables in the dataset, excluding itself. The plot function
+    generates visualizations to clearly represent these correlations, highlighting their direction
+    and magnitude. The summary function returns a comprehensive summary, including the variables
+    being compared, the median absolute correlation, the range of correlation values, and the count
+    of variables that are statistically significant at below the 0.05 level. Additionally, the print
+    function outputs the correlation values between the selected variable and the other variables in
+    the dataset for easy review.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    ggplot2,
+    MASS
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

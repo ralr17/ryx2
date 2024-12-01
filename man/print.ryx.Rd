@@ -24,7 +24,8 @@ Prints correlations between selected variable and other variables in selected da
 library(MASS)
 object <- ryx(Boston, y="medv")
 print(object)
+# Example that compares selected variable with specified variables from a given dataset
 data(mtcars)
-object2 <- ryx(mtcars, y="mpg")
+object2 <- ryx(mtcars, y = "mpg", x = c("qsec","gear","carb"))
 print(object2)
 }

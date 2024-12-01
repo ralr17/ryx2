@@ -28,7 +28,8 @@ Prints a summary of the correlations between the selected variable and other var
 library(MASS)
 object <- ryx(Boston, y="medv")
 summary(object)
+# Example that compares selected variable with specified variables from a given dataset
 data(mtcars)
-object2 <- ryx(mtcars, y="mpg")
+object2 <- ryx(mtcars, y = "mpg", x = c("qsec","gear","carb"))
 summary(object2)
 }

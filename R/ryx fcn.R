@@ -20,7 +20,7 @@
 #'
 #' # Example usage with the mtcars dataset
 #' library(datasets)
-#' object2 <- ryx(mtcars, y = "mpg")
+#' object2 <- ryx(mtcars, y = "mpg", x = c("qsec","gear","carb"))
 
 ryx <- function(data, y, x){
   if(missing(x)){

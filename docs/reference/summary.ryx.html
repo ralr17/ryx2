@@ -84,12 +84,13 @@ in the selected dataset.</p></dd>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Correlating medv with crim zn indus nox rm age dis tax ptratio black lstat </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> The median absolute correlation was 0.427 with a range from 0.25 to 0.738 </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 11 out of 11 variables were significant at the p &lt; 0.05 level.</span>
+<span class="r-in"><span><span class="co"># Example that compares selected variable with specified variables from a given dataset</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">)</span></span></span>
-<span class="r-in"><span><span class="va">object2</span> <span class="op">&lt;-</span> <span class="fu"><a href="ryx.html">ryx</a></span><span class="op">(</span><span class="va">mtcars</span>, y<span class="op">=</span><span class="st">"mpg"</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="va">object2</span> <span class="op">&lt;-</span> <span class="fu"><a href="ryx.html">ryx</a></span><span class="op">(</span><span class="va">mtcars</span>, y <span class="op">=</span> <span class="st">"mpg"</span>, x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"qsec"</span>,<span class="st">"gear"</span>,<span class="st">"carb"</span><span class="op">)</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">object2</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> Correlating mpg with cyl disp hp drat wt qsec vs am gear carb </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> The median absolute correlation was 0.673 with a range from 0.419 to 0.868 </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 10 out of 10 variables were significant at the p &lt; 0.05 level.</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Correlating mpg with qsec gear carb </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> The median absolute correlation was 0.48 with a range from 0.419 to 0.551 </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3 out of 3 variables were significant at the p &lt; 0.05 level.</span>
 </code></pre></div>
     </div>
   </div>

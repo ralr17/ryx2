@@ -25,7 +25,8 @@ This function works with objects created using the \code{ryx} function.
 library(MASS)
 object <- ryx(Boston, y="medv")
 plot(object)
+# Example that compares selected variable with specified variables from a given dataset
 data(mtcars)
-object2 <- ryx(mtcars, y="mpg")
+object2 <- ryx(mtcars, y = "mpg", x = c("qsec","gear","carb"))
 plot(object2)
 }

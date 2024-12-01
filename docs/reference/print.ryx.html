@@ -93,21 +93,15 @@ the selected variable and all the other variables in the selected dataset.</p>
 <span class="r-out co"><span class="r-pr">#&gt;</span> cor1        zn  0.3604453 5.713584e-17   ***</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> cor9     black  0.3334608 1.318113e-14   ***</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> cor6       dis  0.2499287 1.206612e-08   ***</span>
+<span class="r-in"><span><span class="co"># Example that compares selected variable with specified variables from a given dataset</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">)</span></span></span>
-<span class="r-in"><span><span class="va">object2</span> <span class="op">&lt;-</span> <span class="fu"><a href="ryx.html">ryx</a></span><span class="op">(</span><span class="va">mtcars</span>, y<span class="op">=</span><span class="st">"mpg"</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="va">object2</span> <span class="op">&lt;-</span> <span class="fu"><a href="ryx.html">ryx</a></span><span class="op">(</span><span class="va">mtcars</span>, y <span class="op">=</span> <span class="st">"mpg"</span>, x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"qsec"</span>,<span class="st">"gear"</span>,<span class="st">"carb"</span><span class="op">)</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">object2</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> Correlations of mpg with variables: cyl, disp, hp, drat, wt, qsec, vs, am, gear, carb </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>      variable          r            p sigif</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> cor4       wt -0.8676594 1.293959e-10   ***</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> cor       cyl -0.8521620 6.112687e-10   ***</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> cor1     disp -0.8475514 9.380327e-10   ***</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> cor2       hp -0.7761684 1.787835e-07   ***</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> cor3     drat  0.6811719 1.776240e-05   ***</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> cor6       vs  0.6640389 3.415937e-05   ***</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> cor7       am  0.5998324 2.850207e-04   ***</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> cor9     carb -0.5509251 1.084446e-03    **</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> cor8     gear  0.4802848 5.400948e-03    **</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> cor5     qsec  0.4186840 1.708199e-02     *</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Correlations of mpg with variables: qsec, gear, carb </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>      variable          r           p sigif</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> cor2     carb -0.5509251 0.001084446    **</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> cor1     gear  0.4802848 0.005400948    **</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> cor      qsec  0.4186840 0.017081988     *</span>
 </code></pre></div>
     </div>
   </div>

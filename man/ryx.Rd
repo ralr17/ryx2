@@ -34,5 +34,5 @@ object <- ryx(Boston, y = "medv")
 
 # Example usage with the mtcars dataset
 library(datasets)
-object2 <- ryx(mtcars, y = "mpg")
+object2 <- ryx(mtcars, y = "mpg", x = c("qsec","gear","carb"))
 }

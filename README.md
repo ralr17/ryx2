@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of correlationryx is to provide tools for exploring and analyzing the correlations between
+The goal of ryx is to provide tools for exploring and analyzing the correlations between
     a selected variable and other numeric variables in a dataset. Users can choose specific numeric
     variables to include in the comparison. If none are specified, the selected variable will be
     compared to all other numeric variables in the dataset, excluding itself. The plot function

@@ -6,7 +6,7 @@ editor_options:
 
 # ryx
 
-<img src="scatterplot1.png" alt="General Scatter Plot with correlation" width="200"/>
+<img src="man/figures/scatterplot1.png" alt="General Scatter Plot with correlation" width="200"/>
 
 <!-- badges: start -->
 
